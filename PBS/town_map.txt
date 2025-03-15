@@ -1,0 +1,10 @@
+﻿#-------------------------------
+[0]
+Name = 海岚
+Filename = mapRegion0.png
+Point = 13,12,Lappet Town,Oak's Lab,2,8,8
+#-------------------------------
+[1]
+Name = 外界
+Filename = mapRegion1.png
+Point = 13,16,Here

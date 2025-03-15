@@ -1,0 +1,5 @@
+﻿#-------------------------------
+[POKEMONTRAINER_1,飓风]
+LoseText = ......
+Pokemon = N010,5
+Pokemon = N012,5

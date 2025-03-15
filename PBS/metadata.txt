@@ -1,0 +1,29 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[0]
+StartMoney = 3000
+StartItemStorage = MASTERBALL
+Home = 3,7,5,8
+StorageCreator = 飓风
+WildBattleBGM = B2W2 107 Battle! (Wild Pokemon)
+TrainerBattleBGM = B2W2 139 Battle! (Trainer)
+WildVictoryBGM = BW 115 Victory! (Wild Pokemon)
+TrainerVictoryBGM = BW 127 Victory! (Trainer Battle)
+SurfBGM = Surfing
+BicycleBGM = Bicycle
+#-------------------------------
+[1]
+TrainerType = POKEMONTRAINER_Red
+WalkCharset = trainer_POKEMONTRAINER_Red
+RunCharset = boy_run
+CycleCharset = boy_bike
+SurfCharset = boy_surf
+FishCharset = boy_fish_offset
+#-------------------------------
+[2]
+TrainerType = POKEMONTRAINER_Brendan
+WalkCharset = trainer_TRAINER_Brendan
+RunCharset = boy2_run
+CycleCharset = boy2_bike
+SurfCharset = boy2_surf
+FishCharset = boy2_fish_offset

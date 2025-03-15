@@ -1,0 +1,15 @@
+﻿#-------------------------------
+[POKEMONTRAINER_Red]
+Name = [训练家]
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[POKEMONTRAINER_Brendan]
+Name = [训练家]
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[POKEMONTRAINER_1]
+Name = [宝可梦博士]
+Gender = Male
+BaseMoney = 100

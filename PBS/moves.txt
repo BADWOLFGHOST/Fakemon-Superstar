@@ -1,0 +1,676 @@
+﻿#-------------------------------
+[CRABHAMMER]
+Name =蟹钳锤
+Type = WATER
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate,CannotMetronome
+Description = 用大钳子敲打对手进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[HYDROCANNON]
+Name = 加农水炮
+Type = WATER
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 向对手喷射水炮进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[SKYATTACK]
+Name =神鸟猛击
+Type =FLYING
+Category =Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = Other
+FunctionCode = PowerHigherWithLessPP
+Flags =CanProtect,CanMirrorMove,HighCriticalHitRate,CannotMetronome
+Description = 收拢翅膀，通过低空飞行突击对手。剩余PP越少，招式的威力越大。
+#-------------------------------
+[HURRICANE]
+Name =暴风
+Type = FLYING
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = Other
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 用强烈的风席卷对手进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[FLAREBLITZ]
+Name = 闪焰冲锋
+Type = FIRE
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = Contact,CanProtect,CanMirrorMove,ThawsUser,CannotMetronome
+Description = 让火焰覆盖全身猛撞向对手。剩余PP越少，招式的威力越大。
+#-------------------------------
+[BLASTBURN]
+Name = 爆炸烈焰
+Type = FIRE
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 用爆炸的火焰烧尽对手进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[VOLTTACKLE]
+Name = 伏特攻击
+Type = ELECTRIC
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description =让电流覆盖全身猛撞向对手。剩余PP越少，招式的威力越大。
+#-------------------------------
+[ZAPCANNON]
+Name = 电磁炮
+Type = ELECTRIC
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,Bomb,CannotMetronome
+Description = 发射大炮一样的电流进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[POWERWHIP]
+Name = 强力鞭打
+Type = GRASS
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = 激烈地挥舞青藤或触手摔打对手进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[FRENZYPLANT]
+Name = 疯狂植物
+Type = GRASS
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 用大树摔打对手进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[EARTHQUAKE]
+Name = 地震
+Type = GROUND
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 利用地震的冲击，攻击自己周围所有的精灵。剩余PP越少，招式的威力越大。
+#-------------------------------
+[EARTHPOWER]
+Name = 大地之力
+Type = GROUND
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 向对手脚下释放出大地之力。剩余PP越少，招式的威力越大。
+#-------------------------------
+[EXPLOSION]
+Name = 大爆炸
+Type = NORMAL
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 引发大爆炸，攻击自己周围所有的精灵。剩余PP越少，招式的威力越大。
+#-------------------------------
+[HYPERBEAM]
+Name = 破坏光线
+Type = NORMAL
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 向对手发射强烈的光线进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[IRONTAIL]
+Name = 铁尾
+Type = STEEL
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description =使用坚硬的尾巴摔打对手进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[FLASHCANNON]
+Name = 加农光炮
+Type = STEEL
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 将身体的光芒聚集在一点释放出去。剩余PP越少，招式的威力越大。
+#-------------------------------
+[CRUNCH]
+Name = 咬碎
+Type = DARK
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = Contact,CanProtect,CanMirrorMove,Biting,CannotMetronome
+Description =用利牙咬碎对手进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[NIGHTDAZE]
+Name = 暗黑爆破
+Type = DARK
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 放出黑暗的冲击波攻击对手。剩余PP越少，招式的威力越大。
+#-------------------------------
+[FOCUSPUNCH]
+Name = 真气拳
+Type = FIGHTING
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = Contact,CanProtect,Punching,CannotMetronome
+Description = 集中精神出拳。剩余PP越少，招式的威力越大。
+#-------------------------------
+[FOCUSBLAST]
+Name = 真气弹
+Type = FIGHTING
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,Bomb,CannotMetronome
+Description = 提高气势，释放出全部力量。剩余PP越少，招式的威力越大。
+#-------------------------------
+[PLAYROUGH]
+Name = 嬉闹
+Type = FAIRY
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = 与对手嬉闹并攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[MOONBLAST]
+Name = 月亮之力
+Type = FAIRY
+Category = Special
+Power = 1
+Accuracy =100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 借用月亮的力量攻击对手。剩余PP越少，招式的威力越大。
+#-------------------------------
+[ZENHEADBUTT]
+Name = 意念头锤
+Type = PSYCHIC
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = 将思念的力量集中在前额进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[PSYCHIC]
+Name = 精神强念
+Type = PSYCHIC
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 向对手发送强大的念力进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[ICICLECRASH]
+Name = 冰柱坠击
+Type = ICE
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 用大冰柱激烈地撞向对手进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[BLIZZARD]
+Name = 暴风雪
+Type = ICE
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 将猛烈的暴风雪刮向对手进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[PHANTOMFORCE]
+Name = 潜灵奇袭
+Type = GHOST
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = Contact,CanMirrorMove,CannotMetronome
+Description = 消失在某处后突然攻击对手。剩余PP越少，招式的威力越大。
+#-------------------------------
+[SHADOWBALL]
+Name = 暗影球
+Type = GHOST
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags =CanProtect,CanMirrorMove,Bomb,CannotMetronome
+Description =投掷一团黑影进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[MEGAHORN]
+Name = 超级角击
+Type = BUG
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP 
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = 用坚硬且华丽的角狠狠地刺入对手进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[BUGBUZZ]
+Name = 虫鸣
+Type = BUG
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,Sound,CannotMetronome
+Description = 利用振动发出音波进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[ROCKWRECKER]
+Name = 岩石炮
+Type = ROCK
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,Bomb,CannotMetronome
+Description = 向对手发射巨大的岩石进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[POWERGEM]
+Name = 力量宝石
+Type = ROCK
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 发射如宝石般闪耀的光芒攻击对手。剩余PP越少，招式的威力越大。
+#-------------------------------
+[OUTRAGE]
+Name =逆鳞
+Type = DRAGON
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = RandomNearFoe
+FunctionCode = PowerHigherWithLessPP
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = 乱打一气地进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[DRACOMETEOR]
+Name = 流星群
+Type = DRAGON
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 从天空中向对手落下陨石。剩余PP越少，招式的威力越大。
+#-------------------------------
+[GUNKSHOT]
+Name = 垃圾射击
+Type = POISON
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 用肮脏的垃圾撞向对手进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[SLUDGEWAVE]
+Name = 污泥波
+Type = POISON
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = 用污泥波攻击自己周围所有的精灵。剩余PP越少，招式的威力越大。
+#-------------------------------
+[BOOMBURST]
+Name = 爆音波
+Type = QMARKS
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,Sound,CannotMetronome
+Description = 通过震耳欲聋的爆炸声产生的破坏力，攻击自己周围所有的精灵。剩余PP越少，招式的威力越大。
+#-------------------------------
+[HYPERVOICE]
+Name = 巨声
+Type = QMARKS
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = PowerHigherWithLessPP
+Flags = CanProtect,CanMirrorMove,Sound,CannotMetronome
+Description = 给予对手又吵又响的巨大震动进行攻击。剩余PP越少，招式的威力越大。
+#-------------------------------
+[METRONOME]
+Name = 挥指
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = UseRandomMove
+Description = 挥动手指刺激自己的大脑，从所有的招式中任意使出1个。
+#-------------------------------
+[NORETREAT]
+Name =背水一战
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = RaiseUserMainStats1TrapUserInBattle
+Flags = CannotMetronome
+Description = 提高自己的所有能力，但无法替换或逃走。
+#-------------------------------
+[WILLOWISP]
+Name = 鬼火
+Type = FIRE
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 50
+Description = 放出怪异的火焰，从而让对手陷入灼伤状态。
+#-------------------------------
+[LOVELYKISS]
+Name = 恶魔之吻
+Type = ICE
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FreezeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 50
+Description = 用恐怖的脸强吻对手。从而让对手陷入冰冻状态。
+#-------------------------------
+[THUNDERWAVE]
+Name = 电磁波
+Type = ELECTRIC
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 50
+Description = 向对手发出微弱的电击，从而让对手陷入麻痹状态。
+#-------------------------------
+[POISONGAS]
+Name = 毒瓦斯
+Type = POISON
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 50
+Description = 将毒瓦斯吹到对手的脸上，从而让对手陷入中毒状态。
+#-------------------------------
+[TOXIC]
+Name = 剧毒
+Type = POISON
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = BadPoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 50
+Description = 让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。
+#-------------------------------
+[SING]
+Name = 唱歌
+Type = QMARKS
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = SleepTarget
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 50
+Description = 让对手听舒适、美妙的歌声，从而陷入睡眠状态。
+#-------------------------------
+[LEECHSEED]
+Name = 寄生种子
+Type = GRASS
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = StartLeechSeedTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 50
+Description = 植入寄生种子后，将在每回合一点一点吸取对手的HP，从而用来回复自己的HP。
+#-------------------------------
+[SWEETKISS]
+Name = 天使之吻
+Type = FAIRY
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = AttractTarget
+Flags = CanProtect,CanMirrorMove
+Description = 像天使般可爱地亲吻对手，从而使对手着迷。对手将很难使出招式。
+#-------------------------------
+[SUPERSONIC]
+Name = 超音波
+Type = PSYCHIC
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 50
+Description = 从身体发出特殊的音波，从而使对手混乱。
+#-------------------------------
+[TAUNT]
+Name = 挑衅
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DisableTargetStatusMoves
+Flags = CanProtect,CanMirrorMove
+Description = 使对手愤怒。在3回合内让对手只能使出给予伤害的招式。
+#-------------------------------
+[MEANLOOK]
+Name = 黑色目光
+Type = GHOST
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = CanMirrorMove
+EffectChance = 50
+Description = 用好似要勾人心魂的黑色目光一动不动地凝视对手，使其畏缩。
+#-------------------------------
+[DETECT]
+Name = 看穿
+Type = FIGHTING
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = ProtectUser
+Description = 完全抵挡对手的攻击。连续使出则容易失败。
+#-------------------------------
+[FALSESWIPE]
+Name =点到为止
+Type = QMARKS
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = CannotMakeTargetFaint
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = 对手的HP至少会留 下1HP，如此般手下留情地攻击。
+#-------------------------------
+[HEADBUTT]
+Name =头锤
+Type =NORMAL
+Category =Physical
+Power =70
+Accuracy =100
+TotalPP =15
+Target =NearOther
+FunctionCode =FlinchTarget
+Flags =Contact,CanProtect,CanMirrorMove,CannotMetronome
+EffectChance =30
+Description =将头伸出，笔直地扑 向对手进行攻击。有 时会使对手畏缩。
+#-------------------------------
+[SURF]
+Name =冲浪
+Type =WATER
+Category =Special
+Power =90
+Accuracy =100
+TotalPP =15
+Target =AllNearOthers
+FunctionCode =DoublePowerIfTargetUnderwater
+Flags =CanProtect,CanMirrorMove,CannotMetronome
+Description =利用大浪攻击自己周 围所有的宝可梦。
+#-------------------------------
+[STRUGGLE]
+Name =挣扎
+Type =NORMAL
+Category =Physical
+Power =50
+Accuracy =0
+TotalPP =1
+Target =RandomNearFoe
+FunctionCode =Struggle
+Flags =Contact,CanProtect
+Description =当自己的ＰＰ耗尽时 ，努力挣扎攻击对手 。自己也会受到少许 伤害。

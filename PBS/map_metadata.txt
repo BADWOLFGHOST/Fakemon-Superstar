@@ -1,0 +1,31 @@
+﻿#-------------------------------
+[001]   # Intro
+Name = Intro
+#-------------------------------
+[002]   # 桃源镇
+Name = 桃源镇
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,16
+#-------------------------------
+[003]   # \PN的家
+Name = \PN的家
+HealingSpot = 2,8,8
+MapPosition = 0,13,16
+#-------------------------------
+[004]   # 精灵研究所
+Name = 精灵研究所
+ShowArea = false
+MapPosition = 0,13,16
+#-------------------------------
+[008]   # 大厅
+Name = 大厅
+MapPosition = 0,13,16
+BattleBack = grass
+#-------------------------------
+[022]   # 精灵牧场
+Name = 精灵牧场
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,16
+BattleBack = grass

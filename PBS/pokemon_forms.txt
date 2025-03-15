@@ -1,0 +1,59 @@
+﻿#-------------------------------
+[N025,1]
+FormName = 月辉
+BaseStats = 94,42,78,68,100,83
+Abilities = EFFECTSPORE,OVERGROW
+Moves = 1,FRENZYPLANT,1,FOCUSBLAST,1,METRONOME,1,NORETREAT
+Height = 0.8
+Weight = 16.4
+Pokedex = 比起日耀形态更擅长采集和后勤，甚至曾观测到聪明的个体具有种植树果的智慧。
+#-------------------------------
+[N026,1]
+FormName = 月辉
+Types = ICE,FAIRY
+BaseStats = 45,30,35,55,65,50
+Abilities = CLEARBODY,INNERFOCUS
+Moves = 1,BLIZZARD,1,MOONBLAST,1,METRONOME,1,NORETREAT
+Height = 0.3
+Weight = 2.5
+Color = Blue
+Habitat = Mountain
+Category = 雪女
+Pokedex = 月辉形态的孩子更喜欢生活在山的背阴面，据说它会将迷路的登山男们带回洞窟照顾。
+#-------------------------------
+[N027,1]
+FormName = 月辉
+Types = ICE,FAIRY
+BaseStats = 60,50,55,70,95,65
+Abilities = CLEARBODY,INNERFOCUS
+Moves = 1,BLIZZARD,1,MOONBLAST,1,METRONOME,1,NORETREAT
+Height = 0.9
+Weight = 19.9
+Color = Blue
+Habitat = Mountain
+Category = 雪女
+Pokedex = 喜欢聚在一起跳一种古老的舞蹈，舞姿和关都地区一种文化很像，舞步高潮时便会降雪。
+#-------------------------------
+[N028,1]
+FormName = 月辉
+Types = ICE,FAIRY
+BaseStats = 80,70,75,100,120,85
+Abilities = CLEARBODY,INNERFOCUS
+Moves = 1,BLIZZARD,1,MOONBLAST,1,METRONOME,1,NORETREAT
+Height = 1.4
+Weight = 39.5
+Color = Blue
+Habitat = Mountain
+Category = 雪女
+Pokedex = 有时会将孩子带回来的登山男偷偷冰封起来储存住，原因不明，不过可以确认其没有食人的习性。
+#-------------------------------
+[N036,1]
+FormName = 独角兽
+Types = PSYCHIC,STEEL
+BaseStats = 70,104,76,95,89,61
+Abilities = INTIMIDATE,IMMUNITY
+Moves = 1,ZENHEADBUTT,1,IRONTAIL,1,METRONOME,1,NORETREAT
+Height = 1.8
+Weight = 102.3
+Category = 独角
+Pokedex = 成长后的它长出了无坚不摧的长角，被认为是传说中守护纯洁心灵的精灵的后代，面对坏人时会十分凶暴。

@@ -1,0 +1,604 @@
+﻿#-------------------------------
+[MIXBALLNG]
+Name = 缅因球
+NamePlural = 缅因球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉一般属性和幽灵属性的精灵。
+#-------------------------------
+[MIXBALLFD]
+Name = 神龙球
+NamePlural = 神龙球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉飞行属性和龙属性的精灵。
+#-------------------------------
+[MIXBALLFF]
+Name = 熊猫球
+NamePlural = 熊猫球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉火属性和格斗属性的精灵。
+#-------------------------------
+[MIXBALLPF]
+Name = 蜜蜂球
+NamePlural = 蜜蜂球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉超能属性和妖精属性的精灵。
+#-------------------------------
+[MIXBALLWI]
+Name = 企鹅球
+NamePlural = 企鹅球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉水属性和冰属性的精灵。
+#-------------------------------
+[MIXBALLBG]
+Name = 蝴蝶球
+NamePlural = 蝴蝶球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉虫属性和草属性的精灵。
+#-------------------------------
+[MIXBALLES]
+Name = 电子球
+NamePlural = 电子球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉电属性和钢属性的精灵。
+#-------------------------------
+[MIXBALLRG]
+Name = 鼹鼠球
+NamePlural = 鼹鼠球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉岩石属性和地面属性的精灵。
+#-------------------------------
+[MIXBALLDP]
+Name = 飞蛾球
+NamePlural = 飞蛾球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉恶属性和毒属性的精灵。
+#-------------------------------
+[MASTERBALL]
+Name = 大师球
+NamePlural = 大师球
+Pocket = 3
+Price = 5000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 必定能捉到野生精灵的，性能最好的球。
+#-------------------------------
+[ULTRABALL]
+Name = 高级球
+NamePlural = 高级球
+Pocket = 3
+Price = 500
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 比起超级球来更容易捉到精灵的，性能非常不错的球。
+#-------------------------------
+[GREATBALL]
+Name = 超级球
+NamePlural = 超级球
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 比起精灵球来更容易捉到精灵的，性能还算不错的球。
+#-------------------------------
+[POKEBALL]
+Name = 精灵球
+NamePlural = 精灵球
+Pocket = 3
+Price = 100
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 用于投向野生精灵并将其捕捉的球。它是胶囊样式的。
+#-------------------------------
+[SAFARIBALL]
+Name = 狩猎球
+NamePlural = 狩猎球
+Pocket = 3
+Price = 3000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 曾在关都地区的狩猎地带以及神奥地区的大湿地被使用。是一种特殊的球。
+#-------------------------------
+[SPORTBALL]
+Name = 竞赛球
+NamePlural = 竞赛球
+Pocket = 3
+Price = 3000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 曽在城都地区的捕虫大赛上使用的特殊的球。
+#-------------------------------
+[NETBALL]
+Name = 捕网球
+NamePlural = 捕网球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉水属性和虫属性的精灵。
+#-------------------------------
+[DIVEBALL]
+Name = 潜水球
+NamePlural = 潜水球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉生活在水世界里的精灵。
+#-------------------------------
+[NESTBALL]
+Name = 巢穴球
+NamePlural = 巢穴球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。捕捉的野生精灵越弱，就会越容易捕捉。
+#-------------------------------
+[REPEATBALL]
+Name = 重复球
+NamePlural = 重复球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉以前曾捉到过的精灵。
+#-------------------------------
+[TIMERBALL]
+Name = 计时球
+NamePlural = 计时球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。回合数花费得越多，精灵就会越容易捕捉。
+#-------------------------------
+[LUXURYBALL]
+Name = 豪华球
+NamePlural = 豪华球
+Pocket = 3
+Price = 3000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 住着十分惬意的球。捉到的野生精灵会变得容易和训练家亲密。
+#-------------------------------
+[PREMIERBALL]
+Name = 纪念球
+NamePlural = 纪念球
+Pocket = 3
+Price = 500
+SellPrice = 10
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点珍贵的球。特制出来的某种纪念品。
+#-------------------------------
+[DUSKBALL]
+Name = 黑暗球
+NamePlural = 黑暗球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地 在夜晚或洞窟等阴暗的地方捕捉精灵。
+#-------------------------------
+[HEALBALL]
+Name = 治愈球
+NamePlural = 治愈球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点温柔的球。能回复捉到的精灵的HP并治愈异常状态。
+#-------------------------------
+[QUICKBALL]
+Name = 先机球
+NamePlural = 先机球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。如果战斗开始后立刻使用，就能很容易地捉到精灵。
+#-------------------------------
+[CHERISHBALL]
+Name = 贵重球
+NamePlural = 贵重球
+Pocket = 3
+Price = 5000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 相当珍贵的球。特制出来的某种纪念品。
+#-------------------------------
+[FASTBALL]
+Name = 速度球
+NamePlural = 速度球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉逃跑速度很快的精灵。
+#-------------------------------
+[LEVELBALL]
+Name = 等级球
+NamePlural = 等级球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。要捕捉的精灵比自己精灵的等级越低，就会越容易捕捉。
+#-------------------------------
+[LUREBALL]
+Name = 诱饵球
+NamePlural = 诱饵球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉用钓竿钓上来的精灵。
+#-------------------------------
+[HEAVYBALL]
+Name = 沉重球
+NamePlural = 沉重球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉身体沉重的精灵。
+#-------------------------------
+[LOVEBALL]
+Name = 甜蜜球
+NamePlural = 甜蜜球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉和自己精灵元素不同的精灵。
+#-------------------------------
+[FRIENDBALL]
+Name = 友友球
+NamePlural = 友友球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。捉到的野生精灵会立刻变得和训练家亲密起来。
+#-------------------------------
+[MOONBALL]
+Name = 月亮球
+NamePlural = 月亮球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 有点与众不同的球。能很容易地捕捉使用月之石进化的精灵。
+#-------------------------------
+[DREAMBALL]
+Name = 梦境球
+NamePlural = 梦境球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 在连入之森中，不知何时出现在背包里的梦中球。能捉到任何精灵。
+#-------------------------------
+[BEASTBALL]
+Name = 究极球
+NamePlural = 究极球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 为捕捉究极异兽而制作的特殊精灵球。很难捕捉究极异兽之外的精灵。
+#-------------------------------
+[HISUIANPOKEBALL]
+Name = 茶果球
+NamePlural = 茶果球
+Pocket = 3
+Price = 500
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 用茶球果手工制成的精灵球。捕捉到精灵的成功率一般般。
+#-------------------------------
+[STRANGEBALL]
+Name = 奇异球
+NamePlural = 奇异球
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = 将所有用球果手工制成的精灵球合在一起的产物，有着奇异的色彩。
+#-------------------------------
+[MAXPOTION]
+Name = 全满药
+NamePlural = 全满药
+Pocket = 2
+Price = 500
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30,Medicine
+Description = 喷雾式伤药。能让1只精灵回复所有HP。
+#-------------------------------
+[FULLRESTORE]
+Name = 全复药
+NamePlural = 全复药
+Pocket = 2
+Price = 1000
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30,Medicine
+Description = 能回复1只精灵的所有HP并治愈所有异常状态。
+#-------------------------------
+[FULLHEAL]
+Name = 万灵药
+NamePlural = 万灵药
+Pocket = 2
+Price = 500
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30,Medicine
+Description = 喷雾式药水。能治愈1只精灵的所有异常状态。
+#-------------------------------
+[MAXREVIVE]
+Name = 活力块
+NamePlural = 活力块
+Pocket = 2
+Price = 3000
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30,Medicine
+Description = 能让1只陷入濒死的精灵重获生机，并回复所有HP。
+#-------------------------------
+[MAXELIXIR]
+Name = PP多项全补剂
+NamePlural = PP多项全补剂
+Pocket = 2
+Price = 1000
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30,Medicine
+Description = 能让精灵学会的4个招式回复所有PP。
+#-------------------------------
+[MOONSTONE]
+Name = 月之石
+NamePlural = 月之石
+Pocket = 1
+Price = 3000
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = 能让某些精灵进化的神奇石头。像夜空一样乌黑。
+#-------------------------------
+[RARECANDY]
+Name = 神奇糖果
+NamePlural = 神奇糖果
+Pocket = 2
+Price = 1000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = 充满能量的糖果。将它交给精灵后，1只精灵的等级仅会提高1。
+#-------------------------------
+[TM01]
+Name = TM01
+NamePlural = TM01
+Pocket = 4
+Price = 1000
+FieldUse = TR
+Flags = Fling_150
+Move = FALSESWIPE
+Description = 对手的HP至少会留下1HP，如此般手下留情地攻击。
+#-------------------------------
+[MAXREPEL]
+Name = 黄金喷雾
+NamePlural = 黄金喷雾
+Pocket = 1
+Price = 500
+FieldUse = Direct
+Flags = Repel,Fling_30
+Description = 弱小的野生精灵将完全不会出现。
+#-------------------------------
+[SITRUSBERRY]
+Name = 文柚果
+NamePlural = 文柚果
+Pocket = 5
+Price = 100
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_PSYCHIC_80
+Description = 让精灵携带后，可以回复少量HP。
+#-------------------------------
+[LUMBERRY]
+Name = 木子果
+NamePlural = 木子果
+Pocket = 5
+Price = 100
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_FLYING_80
+Description = 让精灵携带后，可以治愈所有异常状态。
+#-------------------------------
+[SPOILEDAPRICORN]
+Name = 蛀球果
+NamePlural = 蛀球果
+Pocket = 1
+Price = 25
+Flags = Apricorn
+Description = 果肉被吃掉了的球果。
+#-------------------------------
+[HISUIANAPRICORN]
+Name = 茶球果
+NamePlural = 茶球果
+Pocket = 1
+Price = 50
+Flags = Apricorn
+Description = 茶色的球果。有着坚硬的外壳，很少有精灵会去吃。在很久以前的神奥地区是制作精灵球的材料。
+#-------------------------------
+[REDAPRICORN]
+Name = 红球果
+NamePlural = 红球果
+Pocket = 1
+Price = 50
+Flags = Apricorn
+Description = 红色的球果。是制作精灵球的材料。
+#-------------------------------
+[YELLOWAPRICORN]
+Name = 黄球果
+NamePlural = 黄球果
+Pocket = 1
+Price = 50
+Flags = Apricorn
+Description = 黄色的球果。是制作精灵球的材料。
+#-------------------------------
+[BLUEAPRICORN]
+Name = 蓝球果
+NamePlural = 蓝球果
+Pocket = 1
+Price = 50
+Flags = Apricorn
+Description = 蓝色的球果。是制作精灵球的材料。
+#-------------------------------
+[GREENAPRICORN]
+Name = 绿球果
+NamePlural = 绿球果
+Pocket = 1
+Price = 50
+Flags = Apricorn
+Description = 绿色的球果。是制作精灵球的材料。
+#-------------------------------
+[PINKAPRICORN]
+Name = 粉球果
+NamePlural = 粉球果
+Pocket = 1
+Price = 50
+Flags = Apricorn
+Description = 粉红色的球果。是制作精灵球的材料。
+#-------------------------------
+[WHITEAPRICORN]
+Name = 白球果
+NamePlural = 白球果
+Pocket = 1
+Price = 50
+Flags = Apricorn
+Description = 白色的球果。是制作精灵球的材料。
+#-------------------------------
+[BLACKAPRICORN]
+Name = 黑球果
+NamePlural = 黑球果
+Pocket = 1
+Price = 50
+Flags = Apricorn
+Description = 黑色的球果。是制作精灵球的材料。
+#-------------------------------
+[ABILITYCAPSULE]
+Name = 特性胶囊
+NamePlural = 特性胶囊
+Pocket = 2
+Price = 3000
+FieldUse = OnPokemon
+Description = 如果用于有着2种特性的精灵，就能令其现有特性变为另一种的胶囊。
+#-------------------------------
+[SHINYCHARM]
+Name = 闪耀护符
+NamePlural = 闪耀护符
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = 拥有它之后，据说会更容易遇见发光精灵的神奇闪光护符。
+#-------------------------------
+[CATCHINGCHARM]
+Name = 防晃护符
+NamePlural = 防晃护符
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = 带上这个神奇的可增强稳定性的护身符，就能更容易触发会心捕捉。
+#-------------------------------
+[EXPCHARM]
+Name = 经验护符
+NamePlural = 经验护符
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = 训练家拥有这个护符后，精灵获得的经验值就会增加。里面装有类似于机器的部件。
+#-------------------------------
+[MEGARING]
+Name = 钥石
+NamePlural = 钥石
+Pocket = 8
+Price = 0
+Flags = KeyItem,MegaRing
+Description = 蕴藏着未知力量的石头。能让携带着特殊道具战斗的精灵进行超级进化。
+#-------------------------------
+[NUCLEUSMUCUS]
+Name = 原子黏液
+NamePlural = 原子黏液
+Pocket = 1
+Price = 0
+Flags = MegaStone,Fling_80
+Description = 让空壳骑士携带后，在战斗时就能进行超级进化的一种神奇道具。
+#-------------------------------
+[ILLUSIONFEATHER]
+Name = 幻象羽毛
+NamePlural = 幻象羽毛
+Pocket = 1
+Price = 0
+Flags = MegaStone,Fling_80
+Description = 让原子疫医携带后，在战斗时就能进行超级进化的一种神奇道具。
+#-------------------------------
+[POKEMONBOXLINK]
+Name = 精灵盒
+NamePlural = 精灵盒
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = 可以随时访问精灵中心电脑里的盒子，来寄放或领回需要的精灵。
+#-------------------------------
+[SUPERROD]
+Name = 厉害钓竿
+NamePlural = 厉害钓竿
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = 最新的厉害钓竿。在有水的地方使用的话，可以钓到精灵。
+#-------------------------------
+[BICYCLE]
+Name = 自行车
+NamePlural = 自行车
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = 能比跑步鞋跑得还快的折叠式自行车。
+#-------------------------------
+[MEMBERCARD]
+Name = 会员卡
+NamePlural = 会员卡
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = 是精英训练家的证明，要好好保管。
