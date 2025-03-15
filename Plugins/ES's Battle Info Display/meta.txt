@@ -1,0 +1,5 @@
+Name       = ESBID_ES的战斗信息显示
+Version    = 2.3
+Essentials = 20.1,21.1
+Link       = "https://bbs.pokefans.cn/threads/347"
+Credits    = ES泽洛
