@@ -1,0 +1,5 @@
+Name = Radar Summary
+Version = 1.0.0
+Essentials = 20.1,21.1
+Requires = Better Bitmaps, 1.1
+Credits = Lucidious89(MUI), Marin(Better Bitmaps), komeiji514

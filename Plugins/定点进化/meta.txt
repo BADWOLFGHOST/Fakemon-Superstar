@@ -1,0 +1,5 @@
+Name       = Event Evolution
+Version    = 1.0.0                        
+Essentials = 21.1
+Link       = https://bbs.pokefans.xyz/forums/10/?prefix_id=13
+Credits    = TS

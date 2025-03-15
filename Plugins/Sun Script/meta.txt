@@ -1,0 +1,9 @@
+Name       = Sun Script
+Version    = 1.0.0
+Essentials = 21.1
+Credits    = NonoNever, Polectron
+#===============================================================================
+# Description:
+# A plugin that adds an animated sun to the game, which changes its visibility
+# based on the time of day. Optionally compatible with the Unreal Time System.
+#===============================================================================
