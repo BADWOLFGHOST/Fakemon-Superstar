@@ -208,6 +208,27 @@ class Battle::Move::PowerHigherWithUserHappiness < Battle::Move
   end
 end
 
+class Battle::Move::PowerHigherWithUserLevel < Battle::Move
+  def pbBaseDamage(baseDmg, user, target)
+    return calc_power(user.level)
+  end
+
+  def calc_power(level)
+    case level
+    when 1..10
+      40
+    when 11..20
+      50
+    when 21..30
+      60
+    when 31..40
+      70
+    else
+      80
+    end
+  end
+end
+
 #===============================================================================
 # Power decreases with the user's happiness. (Frustration)
 #===============================================================================
