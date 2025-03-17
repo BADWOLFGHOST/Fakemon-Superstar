@@ -1,18 +1,6 @@
 #-------------------------------
-[CLAMP]
-Name = 贝壳夹击
-Type = WATER
-Category = Physical
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description = 用非常坚固且厚实的贝壳夹住对手进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[BUBBLE]
-Name = 泡沫
+[SCALD]
+Name = 热水
 Type = WATER
 Category = Special
 Power = 1
@@ -20,59 +8,35 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 向对手用力吹起无数泡泡进行攻击。精灵等级越高，招式的威力越大。
+Flags = CanProtect,CanMirrorMove,ThawsUser
+Description = 向对手喷射煮得翻滚的开水进行攻击。精灵等级越高，招式的威力越大。
 #-------------------------------
-[PECK]
-Name = 啄
-Type =FLYING
-Category =Physical
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = Other
-FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description = 用尖锐的喙或角刺向对手进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[GUST]
-Name = 起风
+[DRILLPECK]
+Name = 啄钻
 Type = FLYING
-Category = Special
+Category = Physical
 Power = 1
 Accuracy = 100
 TotalPP = 10
 Target = Other
 FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 用翅膀将刮起的狂风袭向对手进行攻击。精灵等级越高，招式的威力越大。
+Flags = Contact,CanProtect,CanMirrorMove
+Description = 一边旋转，一边将尖喙刺入对手进行攻击。精灵等级越高，招式的威力越大。
 #-------------------------------
-[FIRESPIN]
-Name = 火焰旋涡
-Type = FIRE
-Category = Physical
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 将对手困在激烈的火焰旋涡中进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[EMBER]
-Name = 火花
+[LAVAPLUME]
+Name = 喷烟
 Type = FIRE
 Category = Special
 Power = 1
 Accuracy = 100
 TotalPP = 10
-Target = NearOther
+Target = AllNearOthers
 FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 向对手发射小型火焰进行攻击。精灵等级越高，招式的威力越大。
+Flags = CanProtect,CanMirrorMove
+Description = 用熊熊烈火攻击自己周围所有的精灵。精灵等级越高，招式的威力越大。
 #-------------------------------
-[NUZZLE]
-Name = 蹭蹭脸颊
+[ZINGZAP]
+Name = 麻麻刺刺
 Type = ELECTRIC
 Category = Physical
 Power = 1
@@ -80,35 +44,11 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description =让电流覆盖全身猛撞向对手。精灵等级越高，招式的威力越大。
+Flags = Contact,CanProtect,CanMirrorMove
+Description = 撞向对手，并发出强电，使其感到麻麻刺刺的。精灵等级越高，招式的威力越大。
 #-------------------------------
-[THUNDERSHOCK]
-Name = 电击
-Type = ELECTRIC
-Category = Special
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 发出电流刺激对手进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[VINEWHIP]
-Name = 藤鞭
-Type = GRASS
-Category = Physical
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description = 用如同鞭子般弯曲而细长的藤蔓摔打对手进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[BULLETSEED]
-Name = 种子机关枪
+[GIGADRAIN]
+Name = 终极吸取
 Type = GRASS
 Category = Special
 Power = 1
@@ -116,11 +56,11 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,Bomb,CannotMetronome
-Description = 向对手猛烈地发射种子进行攻击。精灵等级越高，招式的威力越大。
+Flags = CanProtect,CanMirrorMove
+Description = 吸取对手的养分进行攻击。精灵等级越高，招式的威力越大。
 #-------------------------------
-[BONERUSH]
-Name = 骨棒乱打
+[DRILLRUN]
+Name = 直冲钻
 Type = GROUND
 Category = Physical
 Power = 1
@@ -128,35 +68,11 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 用坚硬的骨头殴打对手进行攻击。精灵等级越高，招式的威力越大。
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = 像钢钻一样，一边旋转身体一边撞击对手。精灵等级越高，招式的威力越大。
 #-------------------------------
-[SANDTOMB]
-Name = 流沙地狱
-Type = GROUND
-Category = Special
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = AllNearOthers
-FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 将对手困在铺天盖地的沙暴中进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[FURYATTACK]
-Name = 乱击
-Type = NORMAL
-Category = Physical
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = AllNearOthers
-FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description = 用角或喙刺向对手进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[DOUBLESLAP]
-Name = 连环巴掌
+[TRIATTACK]
+Name = 三重攻击
 Type = NORMAL
 Category = Special
 Power = 1
@@ -164,11 +80,11 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description = 用连环巴掌拍打对手进行攻击。精灵等级越高，招式的威力越大。
+Flags = CanProtect,CanMirrorMove
+Description = 用3种光线进行攻击。精灵等级越高，招式的威力越大。
 #-------------------------------
-[BULLETPUNCH]
-Name = 子弹拳
+[IRONHEAD]
+Name = 铁头
 Type = STEEL
 Category = Physical
 Power = 1
@@ -176,35 +92,11 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,Punching,CannotMetronome
-Description = 向对手使出如子弹般快速而坚硬的拳头。精灵等级越高，招式的威力越大。
+Flags = Contact,CanProtect,CanMirrorMove
+Description = 用钢铁般坚硬的头部进行攻击。精灵等级越高，招式的威力越大。
 #-------------------------------
-[GYROBALL]
-Name = 陀螺球
-Type = STEEL
-Category = Special
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,Bomb,CannotMetronome
-Description = 让身体高速旋转并撞击对手。精灵等级越高，招式的威力越大。
-#-------------------------------
-[FLING]
-Name = 投掷
-Type = DARK
-Category = Physical
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 捡起身边趁手的东西砸向对手。精灵等级越高，招式的威力越大。
-#-------------------------------
-[BEATUP]
-Name = 围攻
+[NIGHTDAZE]
+Name = 暗黑爆破
 Type = DARK
 Category = Special
 Power = 1
@@ -212,11 +104,11 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 呼唤来野生的精灵一起攻击对手。精灵等级越高，招式的威力越大。
+Flags = CanProtect,CanMirrorMove
+Description = 放出黑暗的冲击波攻击对手。精灵等级越高，招式的威力越大。
 #-------------------------------
-[ARMTHRUST]
-Name = 猛推
+[SKYUPPERCUT]
+Name = 冲天拳
 Type = FIGHTING
 Category = Physical
 Power = 1
@@ -224,47 +116,23 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description = 用张开着的双手猛推对手进行攻击。精灵等级越高，招式的威力越大。
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = 用冲向天空般高高的上勾拳顶起对手进行攻击。精灵等级越高，招式的威力越大。
 #-------------------------------
-[SEISMICTOSS]
-Name = 地球上投
-Type = FIGHTING
-Category = Special
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description = 利用引力将对手甩飞出去。精灵等级越高，招式的威力越大。
-#-------------------------------
-[FAIRYWIND]
-Name = 妖精之风
-Type = FAIRY
-Category = Physical
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 刮起妖精之风，吹向对手进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[DISARMINGVOICE]
-Name = 魅惑之声
+[DAZZLINGGLEAM]
+Name = 魔法闪耀
 Type = FAIRY
 Category = Special
 Power = 1
 Accuracy =100
 TotalPP = 10
-Target = NearOther
+Target = AllNearFoes
 FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,Sound,CannotMetronome
-Description = 发出魅惑的叫声，给予对手精神上的伤害。精灵等级越高，招式的威力越大。
+Flags = CanProtect,CanMirrorMove
+Description = 向对手发射强光，并给予伤害。精灵等级越高，招式的威力越大。
 #-------------------------------
-[STOREDPOWER]
-Name = 辅助力量
+[PSYCHICFANGS]
+Name = 精神之牙
 Type = PSYCHIC
 Category = Physical
 Power = 1
@@ -272,47 +140,23 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 用蓄积起来的力量攻击对手。精灵等级越高，招式的威力越大。
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+Description = 将思念的力量集中在前额进行攻击。精灵等级越高，招式的威力越大。
 #-------------------------------
-[PSYWAVE]
-Name = 精神强念
-Type = PSYCHIC
+[FREEZEDRY]
+Name = 冷冻干燥
+Type = ICE
 Category = Special
 Power = 1
 Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 向对手发射神奇的念波进行攻击。精灵等级越高，招式的威力越大。
+Flags = CanProtect,CanMirrorMove
+Description = 急剧冷冻对手。精灵等级越高，招式的威力越大。
 #-------------------------------
-[ICICLESPEAR]
-Name = 冰锥
-Type = ICE
-Category = Physical
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 向对手发射锋利的冰柱进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[POWDERSNOW]
-Name = 细雪
-Type = ICE
-Category = Special
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = AllNearFoes
-FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 将冰冷的细雪吹向对手进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[ASTONISH]
-Name = 惊吓
+[SHADOWCLAW]
+Name = 暗影爪
 Type = GHOST
 Category = Physical
 Power = 1
@@ -320,35 +164,11 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description = 用尖叫声等突然惊吓对手进行攻击。精灵等级越高，招式的威力越大。
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = 以影子做成的锐爪，劈开对手。精灵等级越高，招式的威力越大。
 #-------------------------------
-[NIGHTSHADE]
-Name = 黑夜魔影
-Type = GHOST
-Category = Special
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 显示恐怖幻影进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[PINMISSILE]
-Name = 飞弹针
-Type = BUG
-Category = Physical
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel 
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 向对手发射锐针进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[INFESTATION]
-Name = 死缠烂打
+[SIGNALBEAM]
+Name = 信号光束
 Type = BUG
 Category = Special
 Power = 1
@@ -356,59 +176,35 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description = 死缠烂打地进行攻击。精灵等级越高，招式的威力越大。
+Flags = CanProtect,CanMirrorMove
+Description = 发射神奇的光线进行攻击。精灵等级越高，招式的威力越大。
 #-------------------------------
-[ROLLOUT]
-Name = 滚动
+[ROCKSLIDE]
+Name = 岩崩
 Type = ROCK
 Category = Physical
 Power = 1
 Accuracy = 100
 TotalPP = 10
-Target = NearOther
+Target = AllNearFoes
 FunctionCode = PowerHigherWithUserLevel
-Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
-Description = 将身体蜷缩起来，像大石头一样滚动着撞向对手。精灵等级越高，招式的威力越大。
+Flags = CanProtect,CanMirrorMove
+Description = 将大岩石猛烈地撞向对手进行攻击。精灵等级越高，招式的威力越大。
 #-------------------------------
-[ROCKBLAST]
-Name = 岩石爆击
-Type = ROCK
-Category = Special
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,Bomb,CannotMetronome
-Description = 向对手发射坚硬的岩石进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[DRAGONRAGE]
-Name = 龙之怒
-Type = DRAGON
-Category = Physical
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = RandomNearFoe
-FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 将愤怒的冲击波撞向对手进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[TWISTER]
-Name = 龙卷风
+[DRAGONPULSE]
+Name = 龙之波动
 Type = DRAGON
 Category = Special
 Power = 1
 Accuracy = 100
 TotalPP = 10
-Target = NearOther
+Target = Other
 FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 兴起龙卷风，将对手卷入进行攻击。精灵等级越高，招式的威力越大。
+Flags = CanProtect,CanMirrorMove,Pulse
+Description = 从大大的口中掀起冲击波攻击对手。精灵等级越高，招式的威力越大。
 #-------------------------------
-[POISONSTING]
-Name = 毒针
+[POISONJAB]
+Name = 毒击
 Type = POISON
 Category = Physical
 Power = 1
@@ -416,44 +212,20 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 将有毒的针刺入对手进行攻击。精灵等级越高，招式的威力越大。
+Flags = Contact,CanProtect,CanMirrorMove
+Description = 用带毒的触手或手臂刺入对手。精灵等级越高，招式的威力越大。
 #-------------------------------
-[ACID]
-Name = 溶解液
-Type = POISON
+[HYPERVOICE]
+Name = 巨声
+Type = QMARKS
 Category = Special
 Power = 1
 Accuracy = 100
 TotalPP = 10
 Target = AllNearFoes
 FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = 将强酸泼向对手进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[SONICBOOM]
-Name = 音爆
-Type = QMARKS
-Category = Physical
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,Sound,CannotMetronome
-Description = 将冲击波撞向对手进行攻击。精灵等级越高，招式的威力越大。
-#-------------------------------
-[ECHOEDVOICE]
-Name = 回声
-Type = QMARKS
-Category = Special
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = PowerHigherWithUserLevel
-Flags = CanProtect,CanMirrorMove,Sound,CannotMetronome
-Description = 用回声攻击对手。精灵等级越高，招式的威力越大。
+Flags = CanProtect,CanMirrorMove,Sound
+Description = 给予对手又吵又响的巨大震动进行攻击。精灵等级越高，招式的威力越大。
 #-------------------------------
 [SKETCH]
 Name = 写生
