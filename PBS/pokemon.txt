@@ -69,7 +69,7 @@ Color = Blue
 Shape = Quadruped
 Habitat = Mountain
 Category = 潮汐
-Pokedex = 高傲而忠实的性格让他很适合看家护院，据说会在朔月的日子里展现出奇特的力量。
+Pokedex = 高傲而忠实的性格让它很适合看家护院，据说会在朔月的日子里展现出奇特的力量。
 Generation = 1
 WildItemUncommon = SITRUSBERRY
 #-------------------------------
