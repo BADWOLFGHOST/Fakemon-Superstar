@@ -1,9 +1,9 @@
-﻿#-------------------------------
+#-------------------------------
 [001]   # Intro
 Name = Intro
 #-------------------------------
-[002]   # 桃源镇
-Name = 桃源镇
+[002]   # 新星镇
+Name = 新星镇
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,16
@@ -18,14 +18,29 @@ Name = 精灵研究所
 ShowArea = false
 MapPosition = 0,13,16
 #-------------------------------
-[008]   # 大厅
-Name = 大厅
+[008]   # 精灵中心
+Name = 新星镇
+HealingSpot = 23,11,15
 MapPosition = 0,13,16
-BattleBack = grass
 #-------------------------------
-[022]   # 精灵牧场
-Name = 精灵牧场
+[022]   # 道具商店
+Name = 新星镇
+MapPosition = 0,13,16
+#-------------------------------
+[066]   # 野生原野区外
+Name = 野生原野区
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,16
+BattleBack = grass
+#-------------------------------
+[067]   # 野生原野区入口
+Name = 野生原野区
+MapPosition = 0,13,16
+#-------------------------------
+[068]   # 野生原野区
+Name = 野生原野区
+Outdoor = true
+ShowArea = true
+MapPosition = 0,12,12
 BattleBack = grass
