@@ -1,5 +1,0 @@
-Name       = PARTYPAUSE      
-Version    = 1.1                    
-Essentials = 21.1               
-Link       = https://eeveeexpo.com/resources/1644/
-Credits    = Voltseon, Golisopod User, ENLS (Created original code I edited, as well as included graphics), WehAxolotl
