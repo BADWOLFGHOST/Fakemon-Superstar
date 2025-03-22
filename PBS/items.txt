@@ -1,9 +1,9 @@
-﻿#-------------------------------
+#-------------------------------
 [MIXBALLNG]
 Name = 缅因球
 NamePlural = 缅因球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉一般属性和幽灵属性的精灵。
@@ -12,7 +12,7 @@ Description = 有点与众不同的球。能很容易地捕捉一般属性和幽
 Name = 神龙球
 NamePlural = 神龙球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉飞行属性和龙属性的精灵。
@@ -21,7 +21,7 @@ Description = 有点与众不同的球。能很容易地捕捉飞行属性和龙
 Name = 熊猫球
 NamePlural = 熊猫球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉火属性和格斗属性的精灵。
@@ -30,7 +30,7 @@ Description = 有点与众不同的球。能很容易地捕捉火属性和格斗
 Name = 蜜蜂球
 NamePlural = 蜜蜂球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉超能属性和妖精属性的精灵。
@@ -39,7 +39,7 @@ Description = 有点与众不同的球。能很容易地捕捉超能属性和妖
 Name = 企鹅球
 NamePlural = 企鹅球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉水属性和冰属性的精灵。
@@ -48,7 +48,7 @@ Description = 有点与众不同的球。能很容易地捕捉水属性和冰属
 Name = 蝴蝶球
 NamePlural = 蝴蝶球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉虫属性和草属性的精灵。
@@ -57,7 +57,7 @@ Description = 有点与众不同的球。能很容易地捕捉虫属性和草属
 Name = 电子球
 NamePlural = 电子球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉电属性和钢属性的精灵。
@@ -66,7 +66,7 @@ Description = 有点与众不同的球。能很容易地捕捉电属性和钢属
 Name = 鼹鼠球
 NamePlural = 鼹鼠球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉岩石属性和地面属性的精灵。
@@ -75,7 +75,7 @@ Description = 有点与众不同的球。能很容易地捕捉岩石属性和地
 Name = 飞蛾球
 NamePlural = 飞蛾球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉恶属性和毒属性的精灵。
@@ -120,7 +120,7 @@ Description = 用于投向野生精灵并将其捕捉的球。它是胶囊样式
 Name = 狩猎球
 NamePlural = 狩猎球
 Pocket = 3
-Price = 3000
+Price = 1000
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 曾在关都地区的狩猎地带以及神奥地区的大湿地被使用。是一种特殊的球。
@@ -129,7 +129,7 @@ Description = 曾在关都地区的狩猎地带以及神奥地区的大湿地被
 Name = 竞赛球
 NamePlural = 竞赛球
 Pocket = 3
-Price = 3000
+Price = 1000
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 曽在城都地区的捕虫大赛上使用的特殊的球。
@@ -138,7 +138,7 @@ Description = 曽在城都地区的捕虫大赛上使用的特殊的球。
 Name = 捕网球
 NamePlural = 捕网球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉水属性和虫属性的精灵。
@@ -147,7 +147,7 @@ Description = 有点与众不同的球。能很容易地捕捉水属性和虫属
 Name = 潜水球
 NamePlural = 潜水球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉生活在水世界里的精灵。
@@ -156,7 +156,7 @@ Description = 有点与众不同的球。能很容易地捕捉生活在水世界
 Name = 巢穴球
 NamePlural = 巢穴球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。捕捉的野生精灵越弱，就会越容易捕捉。
@@ -165,7 +165,7 @@ Description = 有点与众不同的球。捕捉的野生精灵越弱，就会越
 Name = 重复球
 NamePlural = 重复球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉以前曾捉到过的精灵。
@@ -174,7 +174,7 @@ Description = 有点与众不同的球。能很容易地捕捉以前曾捉到过
 Name = 计时球
 NamePlural = 计时球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。回合数花费得越多，精灵就会越容易捕捉。
@@ -183,7 +183,7 @@ Description = 有点与众不同的球。回合数花费得越多，精灵就会
 Name = 豪华球
 NamePlural = 豪华球
 Pocket = 3
-Price = 3000
+Price = 1000
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 住着十分惬意的球。捉到的野生精灵会变得容易和训练家亲密。
@@ -202,7 +202,7 @@ Description = 有点珍贵的球。特制出来的某种纪念品。
 Name = 黑暗球
 NamePlural = 黑暗球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地 在夜晚或洞窟等阴暗的地方捕捉精灵。
@@ -211,7 +211,7 @@ Description = 有点与众不同的球。能很容易地 在夜晚或洞窟等�
 Name = 治愈球
 NamePlural = 治愈球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点温柔的球。能回复捉到的精灵的HP并治愈异常状态。
@@ -220,7 +220,7 @@ Description = 有点温柔的球。能回复捉到的精灵的HP并治愈异常�
 Name = 先机球
 NamePlural = 先机球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。如果战斗开始后立刻使用，就能很容易地捉到精灵。
@@ -238,7 +238,7 @@ Description = 相当珍贵的球。特制出来的某种纪念品。
 Name = 速度球
 NamePlural = 速度球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉逃跑速度很快的精灵。
@@ -247,7 +247,7 @@ Description = 有点与众不同的球。能很容易地捕捉逃跑速度很快
 Name = 等级球
 NamePlural = 等级球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。要捕捉的精灵比自己精灵的等级越低，就会越容易捕捉。
@@ -256,7 +256,7 @@ Description = 有点与众不同的球。要捕捉的精灵比自己精灵的等
 Name = 诱饵球
 NamePlural = 诱饵球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉用钓竿钓上来的精灵。
@@ -265,7 +265,7 @@ Description = 有点与众不同的球。能很容易地捕捉用钓竿钓上来
 Name = 沉重球
 NamePlural = 沉重球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉身体沉重的精灵。
@@ -274,7 +274,7 @@ Description = 有点与众不同的球。能很容易地捕捉身体沉重的精
 Name = 甜蜜球
 NamePlural = 甜蜜球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉和自己精灵元素不同的精灵。
@@ -283,7 +283,7 @@ Description = 有点与众不同的球。能很容易地捕捉和自己精灵元
 Name = 友友球
 NamePlural = 友友球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。捉到的野生精灵会立刻变得和训练家亲密起来。
@@ -292,7 +292,7 @@ Description = 有点与众不同的球。捉到的野生精灵会立刻变得和
 Name = 月亮球
 NamePlural = 月亮球
 Pocket = 3
-Price = 1000
+Price = 500
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 有点与众不同的球。能很容易地捕捉使用月之石进化的精灵。
@@ -319,7 +319,7 @@ Description = 为捕捉究极异兽而制作的特殊精灵球。很难捕捉究
 Name = 茶果球
 NamePlural = 茶果球
 Pocket = 3
-Price = 500
+Price = 300
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 用茶球果手工制成的精灵球。捕捉到精灵的成功率一般般。
@@ -328,69 +328,77 @@ Description = 用茶球果手工制成的精灵球。捕捉到精灵的成功率
 Name = 奇异球
 NamePlural = 奇异球
 Pocket = 3
-Price = 1000
+Price = 5000
 BattleUse = OnFoe
 Flags = PokeBall
 Description = 将所有用球果手工制成的精灵球合在一起的产物，有着奇异的色彩。
 #-------------------------------
-[MAXPOTION]
-Name = 全满药
-NamePlural = 全满药
+[HYPERPOTION]
+Name = 厉害伤药
+NamePlural = 厉害伤药
 Pocket = 2
-Price = 500
+Price = 300
 FieldUse = OnPokemon
 BattleUse = OnPokemon
-Flags = Fling_30,Medicine
-Description = 喷雾式伤药。能让1只精灵回复所有HP。
-#-------------------------------
-[FULLRESTORE]
-Name = 全复药
-NamePlural = 全复药
-Pocket = 2
-Price = 1000
-FieldUse = OnPokemon
-BattleUse = OnPokemon
-Flags = Fling_30,Medicine
-Description = 能回复1只精灵的所有HP并治愈所有异常状态。
+Flags = Fling_30
+Description = 喷雾式伤药。能让1只精灵回复120HP。
 #-------------------------------
 [FULLHEAL]
 Name = 万灵药
 NamePlural = 万灵药
 Pocket = 2
+Price = 300
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = 喷雾式药水。能治愈1只精灵的所有异常状态。
+#-------------------------------
+[REVIVE]
+Name = 活力碎片
+NamePlural = 活力碎片
+Pocket = 2
 Price = 500
 FieldUse = OnPokemon
 BattleUse = OnPokemon
-Flags = Fling_30,Medicine
-Description = 喷雾式药水。能治愈1只精灵的所有异常状态。
+Flags = Fling_30
+Description = 能让1只陷入濒死的精灵重获生机，并回复一半HP。
 #-------------------------------
 [MAXREVIVE]
 Name = 活力块
 NamePlural = 活力块
 Pocket = 2
-Price = 3000
+Price = 1000
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30,Medicine
 Description = 能让1只陷入濒死的精灵重获生机，并回复所有HP。
 #-------------------------------
-[MAXELIXIR]
-Name = PP多项全补剂
-NamePlural = PP多项全补剂
-Pocket = 2
-Price = 1000
-FieldUse = OnPokemon
-BattleUse = OnPokemon
-Flags = Fling_30,Medicine
-Description = 能让精灵学会的4个招式回复所有PP。
-#-------------------------------
 [MOONSTONE]
 Name = 月之石
 NamePlural = 月之石
 Pocket = 1
-Price = 3000
+Price = 500
 FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
-Description = 能让某些精灵进化的神奇石头。像夜空一样乌黑。
+Description = 能让某些特定精灵进化的神奇石头。像夜空一样乌黑。
+#-------------------------------
+[THUNDERSTONE]
+Name = 雷之石
+NamePlural = 雷之石
+Pocket = 1
+Price = 500
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = 能让某些特定精灵进化的神奇石头。有着闪电般的花纹。
+#-------------------------------
+[FIRESTONE]
+Name = 火之石
+NamePlural = 火之石
+Pocket = 1
+Price = 500
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = 能让某些特定精灵进化的神奇石头。看上去是橙黄色的。
 #-------------------------------
 [RARECANDY]
 Name = 神奇糖果
@@ -400,6 +408,60 @@ Price = 1000
 FieldUse = OnPokemon
 Flags = Fling_30
 Description = 充满能量的糖果。将它交给精灵后，1只精灵的等级仅会提高1。
+#-------------------------------
+[EXPCANDYS]
+Name = 经验糖果S
+NamePlural = 经验糖果S
+Pocket = 2
+Price = 200
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = 充满能量的糖果。交给1只精灵后，可以为它增加少许经验值。
+#-------------------------------
+[EXPCANDYM]
+Name = 经验糖果M
+NamePlural = 经验糖果M
+Pocket = 2
+Price = 400
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = 充满能量的糖果。交给1只精灵后，可以为它增加经验值。
+#-------------------------------
+[EXPCANDYL]
+Name = 经验糖果L
+NamePlural = 经验糖果L
+Pocket = 2
+Price = 600
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = 充满能量的糖果。交给1只精灵后，可以为它增加许多经验值。
+#-------------------------------
+[IVCANDYS]
+Name = 个体糖果S
+NamePlural = 个体糖果S
+Pocket = 2
+Price = 200
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = 色彩缤纷，味道很复杂的糖果。交给1只精灵后，可以为它增加少许个体值。
+#-------------------------------
+[IVCANDYM]
+Name = 个体糖果M
+NamePlural = 个体糖果M
+Pocket = 2
+Price = 400
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = 色彩缤纷，味道很复杂的糖果。交给1只精灵后，可以为它增加个体值。
+#-------------------------------
+[IVCANDYL]
+Name = 个体糖果L
+NamePlural = 个体糖果L
+Pocket = 2
+Price = 600
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = 色彩缤纷，味道很复杂的糖果。交给1只精灵后，可以为它增加许多个体值。
 #-------------------------------
 [TM01]
 Name = TM01
@@ -411,14 +473,14 @@ Flags = Fling_150
 Move = FALSESWIPE
 Description = 对手的HP至少会留下1HP，如此般手下留情地攻击。
 #-------------------------------
-[MAXREPEL]
-Name = 黄金喷雾
-NamePlural = 黄金喷雾
+[SUPERREPEL]
+Name = 白银喷雾
+NamePlural = 白银喷雾
 Pocket = 1
 Price = 500
 FieldUse = Direct
 Flags = Repel,Fling_30
-Description = 弱小的野生精灵将完全不会出现。
+Description = 弱小的野生精灵将完全不会出现。效果比除虫喷雾更持久。
 #-------------------------------
 [SITRUSBERRY]
 Name = 文柚果
@@ -444,7 +506,7 @@ Description = 让精灵携带后，可以治愈所有异常状态。
 Name = 蛀球果
 NamePlural = 蛀球果
 Pocket = 1
-Price = 25
+Price = 30
 Flags = Apricorn
 Description = 果肉被吃掉了的球果。
 #-------------------------------
