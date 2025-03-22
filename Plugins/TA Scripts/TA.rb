@@ -2,17 +2,17 @@ module TA
   def self.calc_candies(pkmn)
     case pkmn.level
     when 0..10
-      { :iv_candy_s => 2, :exp_candy_s => 2 }
+      { :IVCANDYS => 2, :EXPCANDYS => 2 }
     when 11..20
-      { :iv_candy_s => 4, :exp_candy_s => 4 }
+      { :IVCANDYS => 4, :EXPCANDYS => 4 }
     when 21..30
-      { :iv_candy_m => 6, :exp_candy_m => 6 }
+      { :IVCANDYM => 6, :EXPCANDYM => 6 }
     when 31..40
-      { :iv_candy_m => 8, :exp_candy_m => 8 }
+      { :IVCANDYM => 8, :EXPCANDYM => 8 }
     when 41..50
-      { :iv_candy_l => 10, :exp_candy_l => 10 }
+      { :IVCANDYL => 10, :EXPCANDYL => 10 }
     else
-      { :iv_candy_l => 12, :exp_candy_l => 12 }
+      { :IVCANDYL => 12, :EXPCANDYL => 12 }
     end
   end
 
@@ -23,9 +23,9 @@ module TA
 
   def self.calc_ivs(candy_type)
     case candy_type
-    when :iv_candy_s; 4
-    when :iv_candy_m; 6
-    when :iv_candy_l; 8
+    when :IVCANDYS; 4
+    when :IVCANDYM; 6
+    when :IVCANDYL; 8
     else
       0
     end
@@ -43,8 +43,9 @@ module TA
     GameData::Stat.each_main do |s|
       available_stats.push(s) if pkmn.iv[s.id] < 31
     end
-    available_stats.shuffle!
+    return if available_stats.empty?
 
+    available_stats.shuffle!
     available_stats.each do |s|
       return if total_increment <= 0
       max_add = [31 - pkmn.iv[s.id], total_increment].min
@@ -52,5 +53,7 @@ module TA
       total_increment -= max_add
       pbMessage(_INTL("该精灵的{1}个体值已增加。", s.name))
     end
+    pkmn.calc_stats
+    return true
   end
 end

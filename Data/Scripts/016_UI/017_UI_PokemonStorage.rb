@@ -1872,8 +1872,9 @@ class PokemonStorageScreen
         @storage.pbDelete(box, index)
       end
       @scene.pbRefresh
-      pbDisplay(_INTL("{1}已传送完毕。", pkmnname))
-      pbDisplay(_INTL("保重，{1}！", pkmnname))
+      pbDisplay(_INTL("{1}已传送完毕。保重，{1}！", pkmnname))
+      pbDisplay(_INTL("博士给了你一些糖果！", pkmnname))
+      TA.release_pokemon(pokemon)
       @scene.pbRefresh
     end
     return

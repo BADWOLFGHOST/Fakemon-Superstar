@@ -955,6 +955,18 @@ ItemHandlers::UseOnPokemon.add(:RARECANDY, proc { |item, qty, pkmn, scene|
   next true
 })
 
+ItemHandlers::UseOnPokemon.add(:IVCANDYS, proc { |item, qty, pkmn, scene|
+  next TA.iv_candy(pkmn, :IVCANDYS)
+})
+
+ItemHandlers::UseOnPokemon.add(:IVCANDYM, proc { |item, qty, pkmn, scene|
+  next TA.iv_candy(pkmn, :IVCANDYM)
+})
+
+ItemHandlers::UseOnPokemon.add(:IVCANDYL, proc { |item, qty, pkmn, scene|
+  next TA.iv_candy(pkmn, :IVCANDYL)
+})
+
 ItemHandlers::UseOnPokemonMaximum.add(:EXPCANDYXS, proc { |item, pkmn|
   gain_amount = 100
   next ((pkmn.growth_rate.maximum_exp - pkmn.exp) / gain_amount.to_f).ceil
