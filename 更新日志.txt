@@ -1,0 +1,14 @@
+2025/3/22
+调整：道具的价格（items.txt）、酸柠小子，惧念灵的进化方式（pokemon.txt）、Storage System Utilities
+的脚本（Storage - Main.rb。汉化，颜色代码修改：原为self.color = Color.new(0, 128, 0, 192)，增加了
+pbDisplay(_INTL("博士给了你一些糖果！"))）、017_UI_PokemonStorage.rb（把pbDisplay(_INTL("{1}已
+传送完毕。保重，{1}！", pkmnname))拆成了三段，分别是：pbDisplay(_INTL("{1}已传送完毕。",
+ pkmnname))，pbDisplay(_INTL("保重，{1}！", pkmnname))，pbDisplay(_INTL("博士给了你一些糖果！"))）
+------------------------------------------------------------------------------------------------------------
+增加：个体糖果S，个体糖果M，个体糖果L，万灵药，雷之石，火之石，经验糖果S，经验糖果M，经验糖果L，
+白银喷雾，活力碎片（items.txt）、Storage System Utilities（Plugins，Graphics/UI/Storage中的
+cursor_fist_g.png，cursor_grab_g.png，cursor_point_1_g.png，cursor_point_2_g.png。颜色修改：
+原为绿色）
+------------------------------------------------------------------------------------------------------------
+移除：Sun Script（Plugins，Graphics/Fogs中的Sun.png）、黄金喷雾，苹野果，PP多项全补剂，全满药，
+全复药和对应的道具图标（items.txt，Graphics/Items）
