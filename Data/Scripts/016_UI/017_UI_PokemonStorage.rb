@@ -1554,7 +1554,7 @@ class PokemonStorageScreen
             commands[cmdWithdraw = commands.length] = (selected[0] == -1) ? _INTL("存放") : _INTL("取出")
             commands[cmdItem = commands.length]     = _INTL("道具")
             commands[cmdMark = commands.length]     = _INTL("标记")
-            commands[cmdRelease = commands.length]  = _INTL("放生")
+            commands[cmdRelease = commands.length]  = _INTL("传送")
             commands[cmdDebug = commands.length]    = _INTL("调试") if $DEBUG
             commands[commands.length]               = _INTL("取消")
             command = pbShowCommands(helptext, commands)
@@ -1640,7 +1640,7 @@ class PokemonStorageScreen
                                    [_INTL("存放"),
                                     _INTL("信息"),
                                     _INTL("标记"),
-                                    _INTL("放生"),
+                                    _INTL("传送"),
                                     _INTL("取消")])
           case command
           when 0 then pbStore([-1, selected], nil)
@@ -1848,7 +1848,7 @@ class PokemonStorageScreen
     pokemon = (heldpoke) ? heldpoke : @storage[box, index]
     return if !pokemon
     if pokemon.egg?
-      pbDisplay(_INTL("蛋不能放生！"))
+      pbDisplay(_INTL("蛋不能传送！"))
       return false
     elsif pokemon.mail
       pbDisplay(_INTL("请先取出精灵的邮件。"))
@@ -1862,7 +1862,7 @@ class PokemonStorageScreen
       pbDisplay(_INTL("这是最后的精灵了！"))
       return
     end
-    command = pbShowCommands(_INTL("要将精灵放生？"), [_INTL("否"), _INTL("是")])
+    command = pbShowCommands(_INTL("要将精灵传送给博士？"), [_INTL("否"), _INTL("是")])
     if command == 1
       pkmnname = pokemon.name
       @scene.pbRelease(selected, heldpoke)
@@ -1872,8 +1872,8 @@ class PokemonStorageScreen
         @storage.pbDelete(box, index)
       end
       @scene.pbRefresh
-      pbDisplay(_INTL("{1}被放生了。", pkmnname))
-      pbDisplay(_INTL("再见，{1}！", pkmnname))
+      pbDisplay(_INTL("{1}已传送完毕。", pkmnname))
+      pbDisplay(_INTL("保重，{1}！", pkmnname))
       @scene.pbRefresh
     end
     return
