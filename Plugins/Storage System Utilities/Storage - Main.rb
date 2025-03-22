@@ -926,6 +926,7 @@ class PokemonStorageScreen
     @scene.pbRefresh
     pbDisplay(_INTL("精灵们已传送完毕。"))
     pbDisplay(_INTL("保重，精灵们！"))
+    pbDisplay(_INTL("博士给了你一些糖果！"))
     @scene.pbRefresh
     @scene.grabber.carrying = false
     @scene.release_tension
