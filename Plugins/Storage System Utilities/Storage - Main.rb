@@ -922,12 +922,12 @@ class PokemonStorageScreen
     # NOTE: No need to stop if last mon because this cannot be done in party!
     command = pbShowCommands(_INTL("要将精灵们传送给博士？"), [_INTL("否"), _INTL("是")])
     return unless command == 1
-    @scene.grabber.release_pokemon
-    @scene.grabber.clear
-    @scene.pbRefresh
     pbDisplay(_INTL("精灵们已传送完毕。"))
     pbDisplay(_INTL("保重，精灵们！"))
     pbDisplay(_INTL("博士给了你一些糖果！"))
+    @scene.grabber.release_pokemon
+    @scene.grabber.clear
+    @scene.pbRefresh
     @scene.pbRefresh
     @scene.grabber.carrying = false
     @scene.release_tension
