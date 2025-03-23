@@ -1,5 +1,6 @@
 立绘（自创、二创）:
 [国内-bilibili/哔哩哔哩]磕厨,熊狼不自卑,脑内麻药E某人,达利利水手,麻辣小野猪00
+[国内-画加]HushW
 ----------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------
 像素图（自创、二创）:
@@ -14,10 +15,10 @@
 ----------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------
 宝可梦/类宝可梦素材来源:
-[国内]洛克王国-世界,奥拉星
-[国外]
+[国内]洛克王国-世界
 [国外-Deviantart]Urbinator17,princess-phoenix,SamuelIsMyName,TzarQuetzal,
-TheGameMusicDude,Morisu-san,Gooompy,Tomycase,Darksilvania,SalamencePaint
+TheGameMusicDude,Morisu-san,Gooompy,Tomycase,Darksilvania,SalamencePaint,
+TheGreatZeKro
 [国外-Twitter/X]Dr.Lava,RacieBeep
 [GBA]Pokemon Vega,Pokemon AstralRed
 ----------------------------------------------------------------------------------------
@@ -35,13 +36,3 @@ eeveeexpo,Pokecommunity
 开发工具:
 Pokemon Essentials,RPG Maker XP
 ----------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
