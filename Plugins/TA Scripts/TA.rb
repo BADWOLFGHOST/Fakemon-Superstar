@@ -47,7 +47,7 @@ module TA
 
     available_stats.shuffle!
     available_stats.each do |s|
-      return if total_increment <= 0
+      return true if total_increment <= 0
       max_add = [31 - pkmn.iv[s.id], total_increment].min
       pkmn.iv[s.id] += max_add
       total_increment -= max_add
