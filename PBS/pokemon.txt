@@ -961,7 +961,7 @@ Category = 冰砖
 Pokedex = 凉爽的身体据说在融化时会流出酸酸的汁液，不过想要品尝的人都会先享受到酸甜的电击。
 Generation = 3
 WildItemUncommon = SITRUSBERRY
-Evolutions = N040,Item,MOONSTONE
+Evolutions = N040,Item,THUNDERSTONE
 #-------------------------------
 [N040]
 Name = 雷猛冰士
@@ -1059,7 +1059,7 @@ Category = 鬼火
 Pokedex = 居住在墓地附近，依靠死者的余念燃烧，当它燃烧的最猛烈时，说明逝者已经了却心愿离去了。
 Generation = 3
 WildItemUncommon = SITRUSBERRY
-Evolutions = N044,Item,MOONSTONE
+Evolutions = N044,Item,FIRESTONE
 #-------------------------------
 [N044]
 Name = 报憾魂
