@@ -181,6 +181,11 @@ class StorageGrabber
   def carried_mons
     return @carried_mons
   end
+
+  def release_pokemon
+    pkmns = @carried_mons.map { |pkmn| pkmn[0] }
+    TA.release_pokemon(pkmns)
+  end
 end
 
 #===============================================================================
