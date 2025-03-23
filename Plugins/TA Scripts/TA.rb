@@ -56,7 +56,7 @@ module TA
       max_add = [31 - pkmn.iv[s.id], total_increment].min
       pkmn.iv[s.id] += max_add
       total_increment -= max_add
-      pbMessage(_INTL("该精灵的{1}个体值已增加。", s.name))
+      pbMessage(_INTL("该精灵的{1}个体值已增加{2}。", s.name, max_add))
     end
     pkmn.calc_stats
     return true
