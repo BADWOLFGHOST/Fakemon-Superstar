@@ -17,7 +17,12 @@ module TA
   end
 
   def self.release_pokemon(pkmn)
-    candy_data = calc_candies(pkmn)
+    pkmns = Array(pkmn)
+    candy_data = pkmns.each_with_object(Hash.new(0)) do |pkmn, hash|
+      calc_candies(pkmn).each do |candy, amount|
+        hash[candy] += amount
+      end
+    end
     candy_data.each { |candy, amount| pbReceiveItem(candy, amount) }
   end
 
