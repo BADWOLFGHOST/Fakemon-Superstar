@@ -5,11 +5,11 @@ StartMoney = 3000
 StartItemStorage = MASTERBALL
 Home = 3,7,5,8
 StorageCreator = 飓风
-WildBattleBGM = B2W2 107 Battle! (Wild Pokemon)
-TrainerBattleBGM = B2W2 139 Battle! (Trainer)
-WildVictoryBGM = BW 115 Victory! (Wild Pokemon)
-TrainerVictoryBGM = BW 127 Victory! (Trainer Battle)
-SurfBGM = Surfing
+WildBattleBGM = RSE 109 Battle! (Wild Pokemon)
+TrainerBattleBGM = RSE 117 Battle! (Trainer Battle)
+WildVictoryBGM = RSE 110 Victory! (Wild Pokemon)
+TrainerVictoryBGM = RSE 118 Victory! (Trainer Battle)
+SurfBGM = RSE 154 Surf
 BicycleBGM = Bicycle
 #-------------------------------
 [1]
