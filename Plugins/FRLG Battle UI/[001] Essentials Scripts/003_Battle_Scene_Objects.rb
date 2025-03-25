@@ -204,8 +204,9 @@ class Battle::Scene::PokemonDataBox < Sprite
   def draw_shiny_icon
     return if !@battler.shiny?
     xDif = @battler.status == :NONE ? - 4 : 42
-    yDif = !@battler.index.even? ? @sideSize != 1 ? 12 : 16 : @sideSize != 1 ? 10 : 0 
-    pbDrawImagePositions(self.bitmap, [["Graphics/UI/shiny", @spriteBaseX + xDif, 50 - yDif]])
+    yDif = !@battler.index.even? ? @sideSize != 1 ? 12 : 16 : @sideSize != 1 ? 10 : 0
+    path = @battler.owned? && @battler.opposes?(0) ? "Graphics/UI/Battle/icon_own_shiny" : "Graphics/UI/shiny"
+    pbDrawImagePositions(self.bitmap, [[path, @spriteBaseX + xDif, 50 - yDif]])
   end
 
   def draw_special_form_icon
